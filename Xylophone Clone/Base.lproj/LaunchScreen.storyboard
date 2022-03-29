@@ -20,11 +20,19 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="5FI-Ev-ohh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xylophone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scK-Fq-2j7">
+                                <rect key="frame" x="112.5" y="423.5" width="189" height="49"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="scK-Fq-2j7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RU8-Ys-fsc"/>
                             <constraint firstAttribute="bottom" secondItem="5FI-Ev-ohh" secondAttribute="bottom" id="b6K-gW-dbr"/>
+                            <constraint firstItem="scK-Fq-2j7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bbE-RC-48L"/>
                             <constraint firstItem="5FI-Ev-ohh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kuv-U6-0Rg"/>
                             <constraint firstItem="5FI-Ev-ohh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="suh-cb-saz"/>
                             <constraint firstItem="5FI-Ev-ohh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vfH-HQ-55G"/>

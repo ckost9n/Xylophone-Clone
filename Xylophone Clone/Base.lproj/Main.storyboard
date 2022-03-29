@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -14,23 +14,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Xylophone_Clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="aRm-bX-dIk">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Be1-5F-HKW">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74j-MP-98q">
-                                                <rect key="frame" x="5" y="4" width="310" height="73"/>
+                                                <rect key="frame" x="6" y="4" width="402" height="109"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="C">
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="45"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rno-qp-zt7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -42,10 +45,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mgY-04-JZj">
-                                        <rect key="frame" x="0.0" y="81" width="320" height="81.5"/>
+                                        <rect key="frame" x="0.0" y="117" width="414" height="116.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rom-JE-H3e">
-                                                <rect key="frame" x="9.5" y="4" width="301" height="73.5"/>
+                                                <rect key="frame" x="12.5" y="4" width="389" height="108.5"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -63,10 +66,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWa-gv-wab">
-                                        <rect key="frame" x="0.0" y="162.5" width="320" height="81"/>
+                                        <rect key="frame" x="0.0" y="233.5" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dl6-x2-nWl">
-                                                <rect key="frame" x="14.5" y="4" width="291" height="73"/>
+                                                <rect key="frame" x="18.5" y="4" width="377" height="109"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -84,10 +87,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvd-Ty-HFD">
-                                        <rect key="frame" x="0.0" y="243.5" width="320" height="81"/>
+                                        <rect key="frame" x="0.0" y="350.5" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eP9-jZ-Zx2">
-                                                <rect key="frame" x="19" y="4" width="282" height="73"/>
+                                                <rect key="frame" x="25" y="4" width="364" height="109"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -105,10 +108,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSo-n8-KxO">
-                                        <rect key="frame" x="0.0" y="324.5" width="320" height="81"/>
+                                        <rect key="frame" x="0.0" y="467.5" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p85-Ju-IXM">
-                                                <rect key="frame" x="24" y="4" width="272" height="73"/>
+                                                <rect key="frame" x="31" y="4" width="352" height="109"/>
                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -126,10 +129,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jub-zk-coA">
-                                        <rect key="frame" x="0.0" y="405.5" width="320" height="81.5"/>
+                                        <rect key="frame" x="0.0" y="584.5" width="414" height="116.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARS-Wg-06r">
-                                                <rect key="frame" x="29" y="4" width="262" height="73.5"/>
+                                                <rect key="frame" x="37.5" y="4" width="339" height="108.5"/>
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -147,10 +150,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gg8-xd-tDj">
-                                        <rect key="frame" x="0.0" y="487" width="320" height="81"/>
+                                        <rect key="frame" x="0.0" y="701" width="414" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EL3-rM-FwL">
-                                                <rect key="frame" x="33.5" y="4" width="253" height="73"/>
+                                                <rect key="frame" x="43.5" y="4" width="327" height="109"/>
                                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -188,6 +191,15 @@
                             <constraint firstItem="aRm-bX-dIk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oKZ-el-aAM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="buttonCollection" destination="74j-MP-98q" collectionClass="NSMutableArray" id="fvu-NS-2gR"/>
+                        <outletCollection property="buttonCollection" destination="Rom-JE-H3e" collectionClass="NSMutableArray" id="oab-jf-lQX"/>
+                        <outletCollection property="buttonCollection" destination="Dl6-x2-nWl" collectionClass="NSMutableArray" id="4lW-Gd-dkP"/>
+                        <outletCollection property="buttonCollection" destination="eP9-jZ-Zx2" collectionClass="NSMutableArray" id="Igt-Rf-Tyj"/>
+                        <outletCollection property="buttonCollection" destination="p85-Ju-IXM" collectionClass="NSMutableArray" id="Cq7-Ma-vv2"/>
+                        <outletCollection property="buttonCollection" destination="ARS-Wg-06r" collectionClass="NSMutableArray" id="Ypy-mv-5q4"/>
+                        <outletCollection property="buttonCollection" destination="EL3-rM-FwL" collectionClass="NSMutableArray" id="XgM-S9-5LU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
